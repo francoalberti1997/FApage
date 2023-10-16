@@ -1,0 +1,65 @@
+.project{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+}
+
+
+.active{
+    color: red;
+
+}
+
+.demo{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.dbox{
+    width: 30%;
+}
+
+
+.demo h1{
+    width: 100%;
+    text-align: center;
+    background-color: #949494;
+
+}
+
+.dbox img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.dbox p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.project h1{
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border: solid #acacac 3px;
+    border-radius: 15px;
+    color: #ffff;
+}
+
+.contenido .div:last-child {
+    justify-self: center;
+    width: calc(200px - 20px);
+    grid-column-start: span 2;
+   }
